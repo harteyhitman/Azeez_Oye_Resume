@@ -317,7 +317,7 @@ const Resume = () => {
           </ul>
         </section>
       </div>
-          Download PDF button
+          {/* Download PDF button */}
           {/* <div className="m-4">
         <PDFDownloadLink
           document={<ResumePDF />}
