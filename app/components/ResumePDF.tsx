@@ -1,7 +1,6 @@
 // components/ResumePDF.tsx
-'use client'
+'use client';
 
-import React from 'react';
 import {
   Page,
   Text,
