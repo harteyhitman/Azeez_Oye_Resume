@@ -317,8 +317,8 @@ const Resume = () => {
           </ul>
         </section>
       </div>
-          {/* Download PDF button */}
-          <div className="m-4">
+          Download PDF button
+          {/* <div className="m-4">
         <PDFDownloadLink
           document={<ResumePDF />}
           fileName="Azeez_Oyegoke_Resume.pdf"
@@ -327,7 +327,7 @@ const Resume = () => {
           {({ loading }) => (loading ? "Preparing document..." : "Download PDF")}
     
         </PDFDownloadLink>
-      </div>
+      </div> */}
     </div>
   );
 };
