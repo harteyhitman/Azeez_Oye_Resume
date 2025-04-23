@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-color: #3978A3;
+  --secondary-color: #AB9FF2;
+  --text-color: #000000;
+  --link-color: #3978A3;
+  --link-hover-color: #3978A3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary-color: #82cfff;
+    --secondary-color: #d1c4ff;
+    --text-color: #ffffff;
+    --link-color: #82cfff;
+    --link-hover-color: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.links {
+  /* color: var(--link-color); */
+  text-decoration: underline;
+}
+
+.links:hover {
+  /* color: var(--link-hover-color); */
+  text-decoration: none;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 0.875rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+}
